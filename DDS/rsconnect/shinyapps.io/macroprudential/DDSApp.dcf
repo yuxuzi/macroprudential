@@ -1,0 +1,8 @@
+name: DDSApp
+account: macroprudential
+server: shinyapps.io
+bundleId: 368232
+url: https://macroprudential.shinyapps.io/DDSApp/
+when: 1454912818.5231
+asMultiple: FALSE
+asStatic: FALSE

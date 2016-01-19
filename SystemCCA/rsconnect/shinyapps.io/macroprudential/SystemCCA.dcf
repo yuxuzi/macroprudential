@@ -1,0 +1,8 @@
+name: SystemCCA
+account: macroprudential
+server: shinyapps.io
+bundleId: 368246
+url: https://macroprudential.shinyapps.io/SystemCCA/
+when: 1454915565.9557
+asMultiple: FALSE
+asStatic: FALSE
