@@ -1,5 +1,6 @@
 
 library(shiny)
+library(shinyBS)
 library(plotly)
 require(plotly)
 require(zoo)
@@ -14,14 +15,20 @@ shinyUI(fluidPage(
   titlePanel("Dynamic Dependence Structure(DDS) Model"),
   
       sidebarLayout(
-        sidebarPanel( 
-          wellPanel(
-            h4("Load Excel Data"),
+        sidebarPanel( width=4,
+           bsCollapsePanel(
+            h4("Load Excel data"),
             fileInput("File", label = "File input"),
-            htmlOutput("selectUI")
+            htmlOutput("selectUI"),
             
+            style = "info"
           ),#wellPanel1
-          wellPanel(
+          
+          
+          
+          
+          
+          bsCollapsePanel(
             h4("Input parameters"),
           
             numericInput("start", label = textOutput("offset"),
@@ -38,13 +45,14 @@ shinyUI(fluidPage(
             
             numericInput("n_quantile", 
                          label = "Quantile Count", 
-                         value = 50)
+                         value = 50),
+            
 
-        
+            style = "info"
         
         ),#wellPanel2
           
-        wellPanel(
+        bsCollapsePanel(
           h4("Plot dependence measure"),
           
           radioButtons("type", label = "Measure type",
@@ -64,9 +72,9 @@ shinyUI(fluidPage(
  
           h5("    2. Dependence vs time"),
           numericInput("percent", label = "Select percent",
-                       value=95,min=1,max=100)
+                       value=95,min=1,max=100),
          
-        
+          style = "info"
           
         )#wellPanel3
         
