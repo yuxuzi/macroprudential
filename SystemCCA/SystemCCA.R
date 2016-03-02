@@ -56,7 +56,7 @@ Report_VaR<-function(Records,Significanes){
  
   res<-apply(res,2,round,digits=3)
   res<-data.frame(date=index(vars),res)
-  colnames(res)<-c("date", paste0("VaR", Significanes*100, "%"))
+  colnames(res)<-c("Date", paste0("VaR", Significanes*100, "%"))
   res
 }
 
@@ -85,7 +85,7 @@ Report_ES<-function(Records,Significanes){
   
   
   
-  colnames(res)<-c("date",paste0("ES",Significanes*100,"%"))
+  colnames(res)<-c("Date",paste0("ES",Significanes*100,"%"))
  
  res
 }  
@@ -100,7 +100,7 @@ Report_Margin<-function(Records){
       mutate(name=paste(bank,id, sep="_"))%>%
       select(name,value)%>%
       spread(name,value)
-      data.frame(date=dat$date,dependance=round(dat$dependence,3),round(parameters,3))
+      data.frame(Date=dat$date,Dependance=round(dat$dependence,3),round(parameters,3))
   }
   
   ldply(Records$margins,output )

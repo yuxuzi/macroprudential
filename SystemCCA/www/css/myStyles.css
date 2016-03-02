@@ -1,0 +1,225 @@
+
+
+
+.panel-primary .panel-heading h4{
+ color: floralwhite;
+ font-weight:bold;
+
+}
+.panel-primary>.panel-heading,.btn-primary,
+ input[type="button" ]{
+  
+  background: #7986CB;
+  
+}
+
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+html, body {
+    margin: 0,-10px;
+    width:100%;
+}
+
+
+body {padding: 50px 0 0 0;
+      z-index: 0; 
+      font-family: 'Segoe UI', 'Helvetica Neue',Helvetica,Arial,sans-serif;
+ 
+}
+
+
+
+.panel-primary .panel-heading h4{
+                  color: floralwhite;
+                  font-weight:bold;
+                  
+                  }
+.panel-primary>.panel-heading,.btn-primary,
+                  input[type="button" ]{
+                  
+                  background: #7986CB;
+                  
+                  }
+
+                  
+
+
+
+                  
+                  
+.navbar-inverse {
+  background: #303f9f;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:hover {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background: #1a237e;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #000000;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu {
+  background-color: #303f9f;
+  color: #eeeeee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-fluid{
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+  
+.jumbotron {
+  margin: 0;
+  padding: 30px 0;
+  height: 160px;
+  background: #7986CB;
+  color: floralwhite;
+}
+
+.shiny-plot-output{
+   width: 100%; 
+   height: 400px;
+  
+}
+
+
+
+.logo{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    height:70px;
+  
+}
+#images{
+    text-align:center;
+}
+
+header h2{
+  
+  color:white;
+  font-weight:bold;
+}
+
+.row-header {
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+header img.logo {
+    width: auto;
+    height: 75px;
+    margin-top: -1px;
+}
+
+
+
+header img {
+    width: auto;
+    height: 80px;
+    float: left;
+    padding: 10px 0 0 0;
+}
+
+#File {
+  position:relative;
+  top:-10px;
+	z-index: -1;
+}
+
+
+
+
+
+#File:focus + label,
+#File + label:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#plot{
+    width: 100%; 
+    height: 400px
+}
+
+
+.tooltip{
+    background:#303f9f;
+    color:white;
+    padding:5px;
+    box-shadow:0 0 10px 0 rgba(0, 0, 0, 1);
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
